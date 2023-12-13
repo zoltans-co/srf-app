@@ -1,18 +1,13 @@
 <template>
   <div class="imLandingContent">
     <v-container>
-      <ImLandingLogo />
-      <!--ImLandingFeatures /-->
-      <ImLandingFooter />
+      <ImLandingPageMiddle />
     </v-container>
   </div>
 </template>
 <script>
-import ImLandingLogo from "@/components/landing/ImLandingLogo";
-// import ImLandingFeatures from "@/components/landing/ImLandingFeatures";
-import ImLandingFooter from "@/components/landing/ImLandingFooter";
+import ImLandingPageMiddle from "@/components/landing/ImLandingPageMiddle.vue";
 export default {
-  //components: { ImLandingFooter, ImLandingFeatures, ImLandingLogo }
-  components: { ImLandingLogo, ImLandingFooter }
+  components: {ImLandingPageMiddle }
 };
 </script>
